@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Image/popcorn.gif);
+
+    
+   
+    background-position: top;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    align-items: center;
+    background-color: transparent;
+  
+    
+}
+header h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px black;
+        
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    
+}
+header nav ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+}
+header nav ul li a:hover{
+    transition: all ease;
+    font-weight: bolder;
+    color: cyan;
+    text-shadow: 1px 1px 2px rgb(96, 94, 94);
+}
+.active{
+    font-weight: bolder;
+    
+}
+.dance{
+    position: absolute;
+    margin-top: 60%;
+    width: 200px;
+    height: auto;
+}
+.eat{
+    position: absolute;
+    margin-top: 60%;
+    right: 0;
+    margin-right: 200px;
+    width: 200px;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cat{
+    width: 50px;
+    height: auto;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 400px;
+    
+}
+.Content div h1{
+   text-shadow: 1px 2px 5px gray;
+   color: black;
+}
+
+.Content div h1 span{
+    color: white;
+    text-shadow: 1px 2px 5px black;
+}
+
+.Content div button{
+    padding: 10px 30px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 2px gray;
+    
+    
+}
+
+.Content div button:hover{
+    margin-top: 20px;
+    background-color: rgb(5, 255, 255);
+    box-shadow: 1px 1px 100px 40px rgb(5, 255, 255);
+    transition: all ease 0.5s;
+}
+
+
+    
